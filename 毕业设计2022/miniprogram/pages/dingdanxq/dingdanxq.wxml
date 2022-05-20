@@ -1,0 +1,36 @@
+<!-- 收货信息 -->
+<view class="order_deatail">
+  <view class="order_deatail_1">
+  <image src="cloud://cloud1-3gyea2zq9b726e94.636c-cloud1-3gyea2zq9b726e94-1311489693/image/tubiao/地址.png" style="width:80rpx;height:80rpx" ></image>
+  </view>
+
+  <view class="order_deatail_2">
+    <view class="order_deatail_3">
+      <view>{{order.name}}:</view>
+      <view>{{order.phone_number}}</view>
+    </view>
+    <view>{{order.address}}</view>
+  </view>
+</view>
+
+<!-- 订单商品 -->
+<block wx:for="{{order.product}}" wx:key="_id">
+  <navigator url="../xiangqing/xiangqing?id={{item.id}}" class="order">
+    <view class="order_2">
+      <image src="{{item.chanpingsrc}}" style="width:150rpx;height:150rpx"></image>
+      <view class="order_3">
+        <view>{{item.chanpingname}}</view>
+        <view>商品:{{item.chanpingnum}}件</view>
+      </view>
+    </view>
+  </navigator>
+</block>
+
+
+<!-- 订单信息 -->
+<view class="order_message">
+  <view>订单信息</view>
+  <view>订单时间：{{order.time}}</view>
+  <view>订单金额：{{order.money}}</view>
+  <view>备注：{{order.beizhu}}</view>
+</view>

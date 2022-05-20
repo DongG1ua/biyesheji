@@ -1,0 +1,38 @@
+<!-- 登录 -->
+<view class="denglu">
+    <button  wx:if="{{!userInfo}}" bindtap="login">登录</button>
+    <view wx:else class="root">
+    <image class="touxiang" src="{{userInfo.avatarUrl}}"></image>
+    <text class="nicheng">{{userInfo.nickName}}</text>
+  </view>
+</view>
+<!-- 我的订单 -->
+<navigator url="../dingdan/dingdan">
+  <view class="aq">
+    <image src="cloud://cloud1-3gyea2zq9b726e94.636c-cloud1-3gyea2zq9b726e94-1311489693/image/tubiao/订单S.png" style="width:60rpx;height:60rpx;margin-right: 20rpx;"></image>
+    <view>我的订单</view>
+    <image src="cloud://test-rvwwd.7465-test-rvwwd-1301656814/img/tubiao/jt.png" style="width:60rpx;height:60rpx;margin-left: 400rpx;"></image>
+  </view>
+</navigator>
+<!-- 收货地址 -->
+<view class="aq" bindtap="address">
+  <image src="cloud://cloud1-3gyea2zq9b726e94.636c-cloud1-3gyea2zq9b726e94-1311489693/image/tubiao/地址.png" style="width:60rpx;height:60rpx;margin-right: 20rpx;"></image>
+  <view>收货地址</view>
+  <image src="cloud://test-rvwwd.7465-test-rvwwd-1301656814/img/tubiao/jt.png" style="width:60rpx;height:60rpx;margin-left: 400rpx;"></image>
+</view>
+<!-- 商户平台 -->
+<navigator url="../denglu/denglu">
+  <view class="aq">
+    <image src="	cloud://cloud1-3gyea2zq9b726e94.636c-cloud1-3gyea2zq9b726e94-1311489693/image/tubiao/商家.png" style="width:60rpx;height:60rpx;margin-right: 20rpx;"></image>
+    <view>商户平台</view>
+    <image src="cloud://test-rvwwd.7465-test-rvwwd-1301656814/img/tubiao/jt.png" style="width:60rpx;height:60rpx;margin-left: 400rpx;"></image>
+  </view>
+</navigator>
+<!--退出登录-->
+<view class="tuichu">
+    <view  wx:if="{{userInfo}}">
+        <button bindtap="nologin" >
+            <text>退出登录</text>
+        </button>
+</view>
+</view>

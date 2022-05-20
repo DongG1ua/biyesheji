@@ -1,0 +1,52 @@
+Page{
+  background-color: #ebeaea; 
+}
+.aq{
+  display: flex;
+  flex-direction: row;
+  font-size: 21px;
+  font-weight: 400;
+  width: 100%;
+  height: 60rpx;
+  background-color: #fff;
+  margin-top: 10rpx;
+  padding-top: 15rpx;
+  padding-bottom: 15rpx;
+  padding-left: 20rpx;
+}
+.touxiang {
+  width: 150rpx;
+  height: 150rpx;
+  border-radius: 50%;
+  margin-top: 20rpx;
+  margin-bottom: 10rpx;
+  margin-left: 40%;
+}
+.nicheng{
+  color:black;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  font-size: 50rpx;
+}
+.denglu{
+  width: 100%;
+  height: 300rpx;
+  background-color: snow;
+  padding-top: 150rpx;
+}
+.tuichu{
+  display: flex;
+  flex-direction: row;
+  font-size: 21px;
+  font-weight: 400;
+  width: 100%;
+  height: 60rpx;
+  background-color: #fff;
+  margin-top: 10rpx;
+  padding-top: 15rpx;
+  padding-bottom: 15rpx;
+  align-self: center;
+  align-items: center;
+  justify-content: center;
+}

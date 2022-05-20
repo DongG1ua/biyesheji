@@ -1,0 +1,1 @@
+"D:\weixin\微信web开发者工具\cli.bat" cloud functions deploy --e cloud1-3gyea2zq9b726e94 --n quickstartFunctions --r --project "D:\毕业设计2022" --report_first --report

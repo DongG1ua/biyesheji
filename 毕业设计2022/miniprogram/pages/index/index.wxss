@@ -1,0 +1,135 @@
+/* 背景 */
+page{
+  background-color: #40de5a;
+}
+/* 搜索框 */
+.search{
+  width: 80%;
+  height: 60rpx;
+  display: flex;
+  flex-direction: row;
+  border: 1px solid rgb(234, 238, 243);
+  border-radius: 50rpx;
+  padding-left: 50rpx;
+  padding-right: 50rpx;
+  align-items: center;
+  align-self: center;
+  justify-content: space-between;
+  background-color: snow;
+}
+/* 搜索列表 */
+.list{
+  width: 88%;
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  height: 300rpx;
+  align-self: center;
+  border-radius: 10rpx;
+  margin-top: 10rpx;
+}
+.list-1{
+  width: 100%;
+  height: 120rpx;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+/* 轮播图 */
+.banner{
+  display: flex;
+  margin-top: 30rpx;
+  width: 100%;
+  height: 350rpx;
+}
+.swip_main{
+  width: 100%;
+  height: 100%;
+}
+/* 分类图 */
+.fenlei{
+  width: 95%;
+  height: 200rpx;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background-color: snow;
+  /* 排列 */
+  justify-content: space-between;
+  padding-left: 20rpx;
+  padding-right: 20rpx;
+}
+.fenlei-1{
+  display: flex;
+  /* 竖着排序 */
+  flex-direction: column;
+  width: 22%;
+  align-self: center;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10rpx;
+  border: 1rpx solid silver;
+}
+.fenlei-2{
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  align-items: center;
+  justify-content: center;
+}
+/* 产品 */
+.shangping{
+  width: 100%;
+  height: 300rpx;
+}
+.tuijian{
+  width: 100%;
+  height: 80rpx;
+  line-height: 80rpx;
+  padding-left: 10rpx;
+  font-weight: 700;
+  border-left: 5px solid black;
+}
+.box{
+  width: 100%;
+  height: 210rpx;
+  margin: 10rpx auto;
+  background-color: snow;
+}
+.box-img{
+  height: 210rpx;
+  width: 300rpx;
+  float: left;
+}
+.box-img image{
+  width: 100%;
+  height: 100%;
+}
+.box-text{
+  width: 350rpx;
+  height: 210rpx;
+  float: left;
+  padding-left: 20rpx;
+}
+.box-title{
+  width: 100%;
+  height: 160rpx;
+  line-height: 50rpx;
+  font-size: 40rpx;
+  font-weight: 700;
+}
+.jiage{
+  height: 50rpx;
+  width: 100%;
+  line-height: 50rpx;
+  color: red;
+  font-size: 40rpx;
+}
+.xiaoliang{
+  height: 50rpx;
+  width: 100%;
+  line-height: 50rpx;
+  color: black;
+  font-size: 28rpx;
+}
